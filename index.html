@@ -5,6 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--RESPONSIVE -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- OWL-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+
     <title>NETFLIX CLONE</title>
 
 </head>
@@ -30,20 +40,126 @@
                 <h3 class="titulo">MULHER MARAVILHA</h3>
                 <p class="descricao">Em 1984, Diana Prince entra em conflito com dois inimigos formidáveis, Maxwell Lord e a Mulher-Leopardo, enquanto reencontra misteriosamente com seu antigo interesse amoroso Steve Trevor. </p>
             </div>
-            <div class="botoes">
-                <button role="button" class="botao">
+            <div class="container">
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="mulherMaravilha()">
                     <i class="fa fa-play" aria-hidden="true"></i>
-                ASSISTIR AGORA
+                ASSISTIR TRAILER
             </button>
-                <button role="button" class="botao">
+                    <button role="button" class="botao">
                     <i class="fa fa-info-circle" aria-hidden="true"></i>
                 MAIS INFORMAÇÕES
             </button>
+                </div>
             </div>
         </div>
     </main>
 
-    <script src="https://use.fontawesome.com/9157f079cb.js"></script>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="ava()" id="ava">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/Ava.jpg" alt="">
+            </div>
+
+
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="godzilla()" id="godzilla">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/Godzilla.jpg" alt="">
+            </div>
+
+
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="O_Recife_Da_Dory()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/O_Recife_Da_Dory.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="Resgate()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/Resgate.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="Vikings()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/Vikings.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="lupin()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/lupin.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="cobra_kai()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/cobra_kai.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="coring()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/coring.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="kong()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/kong.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="lucifer()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/lucifer.jpg" alt="">
+            </div>
+            <div class="item">
+                <div class="botoes-filmes">
+                    <button role="button" class="botao" onclick="expresso()">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        ASSISTIR TRAILER</button>
+                </div>
+                <img class="box-filme" src="img/carousel/expresso.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JS-->
+    <script type="text/javascript" src="https://use.fontawesome.com/9157f079cb.js"></script>
+    <script type="text/javascript" src="js/owl/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/owl/setup.js"></script>
+    <script type="text/javascript" src="js/filmes.js"></script>
 </body>
 
 </html>
